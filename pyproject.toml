@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "image_bot"
+version = "0.1.0"
+description = "I'm trying to handle multiple images in PTB"
+authors = ["Даниил Паутов <danpautoff@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^20.4"
+python-dotenv = "^1.0.0"
+django = "^5.0"
+djangorestframework = "^3.14.0"
+pillow = "^10.1.0"
+setuptools = "^69.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
